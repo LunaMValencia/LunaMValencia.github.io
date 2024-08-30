@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+       <title>Luna M. Valencia's Portfolio</title> 
+    </head>
+      <body>
+        <main>
+       <header>
+
+        <nav class="topnav" id="portfolioTopnav">
+
+            <a href="#contact">Contact</a>
+          
+            <a href="#accomplishments">Accomplishments</a>
+          
+            <a href="#skills">Skills</a>
+          
+            <a href="#about">About</a>
+          
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+          
+          </nav>
+
+
+      <!--  <nav class="topnav" id="portfolioTopnav">
+
+            <a href="#about">About</a>
+          
+            <a href="#skills">Skills</a>
+          
+            <a href="#accomplishments">Accomplishments</a>
+          
+            <a href="#contact">Contact</a>
+          
+            <a href="javascript:void(0);" class="icon" onclick="openMenu"><i class="fa fa-bars"></i></a>
+          
+          </nav> -->
+          
+        <!--  <nav>
+<ul class="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#accomplishments">Accomplishments</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+        </nav> -->
+       </header>
+        <h1>Luna M. Valencia</h1>
+        <!--About Section-->
+        <div id="aboutsection">
+            <figure>
+           <a href="https://www.researchgate.net/profile/Luna-Valencia-2" target="_blank">
+            <img src="Luna.jpeg" width="200" height="267" alt="A photo of Luna M. Valencia"/></a>
+        </figure>
+       
+        <h2 id="about">About</h2>
+        <p>
+            I am currently a <strong>PhD student</strong> at the School of Biology and Environmental Science at <em> University of Technology</em>. 
+            My research focuses on conservation biology and paleontology, with the objective of examining the evidence 
+            of a <strong>sixth mass extinction</strong> by comparing modern and fossil data. I have a background in marine biology 
+            and extensive experience in ecological research.
+        </p><br>
+        <!--Skills Section-->
+        <h3 id="skills">Skills</h3>
+        <h4>Research Skills</h4>
+        <ul class="list">
+            <li>Field sampling and sample processing</li>
+            <li>Data collection</li>
+            <li>Marine invertebrate identification</li>
+        </ul>
+        <h4>Interpersonal Skills</h4>
+        <ul class="list">
+            <li>Teamwork</li>
+            <li>Tolerance</li>
+            <li>Responsibility</li>
+        </ul>
+        <h4>Technical Skills</h4>
+        <ul class="list">
+            <li>Statistical analysis using R</li>
+            <li>Graphic desing using Corel and Inkscape</li>
+            <li>Public speaking</li>
+        </ul>
+    </div>
+    <!--Accomplishments Section-->
+    <div id="accomplishementssection">
+        <h2 id="accomplishments">Accomplishments</h2>
+        <table>
+            <tr>
+                <th>Awards</th>
+                <th>Presentations</th>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <h3>Coding Examples</h3>
+        <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+    </div>
+    <!--Contact Section-->
+    <div id="contactsection">
+        <h2 class="contactform">Contact</h2>
+        <a href= "https://www.researchgate.net/profile/Luna-Valencia-2" target="_blank"> ResearchGate </a><br>
+        <a href= "https://orcid.org/0009-0001-2749-6558" target="_blank"> ORCID iD </a>
+        <br><br>
+        <form>
+            <label for="name">*Name:</label>
+            <br>
+            <input type="text" name="name-text-field" id="name" required>
+            <br><br>
+            <label for="email">*Email:</label>
+            <br>
+            <input type="email" name="email" id="email" requiered pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <br><br>
+            <label for="mobile">Mobile (optional)</label>
+            <br>
+            <input type="tel" id="mobile" name="mobile" id="mobile" pattern="[0-9] {10,16}">
+            <br><br>
+            <label for="message">*Leave your message below:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+            <br><br>
+            <input type="submit">
+        </form>
+    </div>
+</main>
+<footer>
+    <p>Email me at <a href="mailto:lunamaria.valenciacuervo@hdr.qut.edu.au" target="_blank">lunamaria.valenciacuervo@hdr.qut.edu.au</a></p>
+</footer>
+<script src="./nav.js"></script>
+      </body>
+</html>
